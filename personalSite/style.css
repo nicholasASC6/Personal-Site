@@ -1,0 +1,88 @@
+#navbar {
+    position:fixed;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+}
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.heading{
+    margin:50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 183, 255, 0.637);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.home{
+    margin: 30px;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(206, 42, 42, 0.712);
+    border: solid rgb(119, 10, 119) 4px;
+    padding: 20px;
+}
+
+.education{
+    margin: 30px;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(206, 42, 42, 0.712);
+    border: solid rgb(119, 10, 119) 4px;
+    padding: 20px;
+}
+
+.project{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: hotpink;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: green;
+}
+
+li {
+    float: left;
+    padding: 5px;
+    list-style-type: none;
+}
